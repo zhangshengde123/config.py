@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<testsuites>
+	<testsuite name="Kaop" hostname="loop" timestamp="2021-06-18T14:10:59.184059" tests="2" failures="2" failures_detail="H:2 M:0 L:0" errors="0" errors_detail="H:0 M:0 L:0" time="30.74856" skipped="0" disabled="0">
+		<testcase name="执行登录" classname="USER_001" priority="H" time="11.633092">
+			<failure type="Failure" message="step-1|EXECUTE|LOGIN_001*3: 'LOGIN_001'"/>
+		</testcase>
+		<testcase name="登出" classname="LOG_OUT" priority="H" time="17.491064">
+			<failure type="Failure" message="step-1|HOVER|福利管理平台-头像: Locating the element:福利管理平台-头像 is Failure: Timeout"/>
+		</testcase>
+	</testsuite>
+</testsuites>

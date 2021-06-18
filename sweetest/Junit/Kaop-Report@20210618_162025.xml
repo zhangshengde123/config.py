@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<testsuites>
+	<testsuite name="Kaop" hostname="platform" timestamp="2021-06-18T16:20:25.581589" tests="3" failures="0" failures_detail="H:0 M:0 L:0" errors="0" errors_detail="H:0 M:0 L:0" time="31.78685" skipped="0" disabled="0">
+		<testcase name="登录锦福利后台" classname="LOG_IN" priority="H" time="7.05785"/>
+		<testcase name="使用工号搜索员工信息" classname="FIL_001" priority="M" time="9.065227"/>
+		<testcase name="筛选普通员工" classname="FIL_002" priority="H" time="13.926659"/>
+	</testsuite>
+</testsuites>

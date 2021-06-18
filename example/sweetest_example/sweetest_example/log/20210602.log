@@ -1,0 +1,305 @@
+2021-06-02 14:45:56,578 [INFO]: #  From Excel import testsuite success
+2021-06-02 14:45:58,355 [INFO]: #  *** SETUP testcase ↓ ***
+2021-06-02 14:45:58,385 [INFO]: #  --------------------------------------------------
+2021-06-02 14:45:58,386 [INFO]: #  >>> Run the TestCase: HOME_001|打开百度
+2021-06-02 14:45:58,386 [INFO]: #  --------------------------------------------------
+2021-06-02 14:45:58,388 [INFO]: #  Run the Step: 1|通用|OPEN|通用-百度搜索链接
+2021-06-02 14:46:00,010 [INFO]: #  >>>>>>>>>>>>>>>>>>>> success <<<<<<<<<<<<<<<<<<<<
+2021-06-02 14:46:00,212 [INFO]: #  Run the Step: 2|百度搜索页面|CHECK|通用-页面title
+2021-06-02 14:46:00,212 [INFO]: #  DATA:'百度一下，你就知道'
+2021-06-02 14:46:00,212 [INFO]: #  REAL:'百度一下，你就知道'
+2021-06-02 14:46:00,228 [INFO]: #  >>>>>>>>>>>>>>>>>>>> success <<<<<<<<<<<<<<<<<<<<
+2021-06-02 14:46:00,477 [INFO]: #  --------------------------------------------------
+2021-06-02 14:46:00,477 [INFO]: #  >>> Run the TestCase: BAIDU_001|搜索：自动化测试
+2021-06-02 14:46:00,479 [INFO]: #  --------------------------------------------------
+2021-06-02 14:46:00,479 [INFO]: #  Run the Step: 1|百度搜索页面|INPUT|百度搜索页面-搜索框
+2021-06-02 14:46:01,176 [INFO]: #  >>>>>>>>>>>>>>>>>>>> success <<<<<<<<<<<<<<<<<<<<
+2021-06-02 14:46:01,386 [INFO]: #  Run the Step: 2|百度搜索页面|CLICK|百度搜索页面-搜索按钮
+2021-06-02 14:46:02,670 [INFO]: #  >>>>>>>>>>>>>>>>>>>> success <<<<<<<<<<<<<<<<<<<<
+2021-06-02 14:46:02,876 [INFO]: #  Run the Step: 3|百度搜索页面|CHECK|通用-页面title
+2021-06-02 14:46:02,876 [INFO]: #  DATA:'自动化测试_百度搜索'
+2021-06-02 14:46:02,876 [INFO]: #  REAL:'自动化测试_百度搜索'
+2021-06-02 14:46:02,876 [INFO]: #  >>>>>>>>>>>>>>>>>>>> success <<<<<<<<<<<<<<<<<<<<
+2021-06-02 14:46:03,085 [INFO]: #  *** SETUP testcase ↓ ***
+2021-06-02 14:46:03,085 [INFO]: #  --------------------------------------------------
+2021-06-02 14:46:03,085 [INFO]: #  >>> Run the TestCase: HOME_001|打开百度
+2021-06-02 14:46:03,085 [INFO]: #  --------------------------------------------------
+2021-06-02 14:46:03,085 [INFO]: #  Run the Step: 1|百度搜索页面|OPEN|通用-百度搜索链接
+2021-06-02 14:46:03,881 [INFO]: #  >>>>>>>>>>>>>>>>>>>> success <<<<<<<<<<<<<<<<<<<<
+2021-06-02 14:46:04,091 [INFO]: #  Run the Step: 2|百度搜索页面|CHECK|通用-页面title
+2021-06-02 14:46:04,091 [INFO]: #  DATA:'百度一下，你就知道'
+2021-06-02 14:46:04,091 [INFO]: #  REAL:'百度一下，你就知道'
+2021-06-02 14:46:04,091 [INFO]: #  >>>>>>>>>>>>>>>>>>>> success <<<<<<<<<<<<<<<<<<<<
+2021-06-02 14:46:04,310 [INFO]: #  --------------------------------------------------
+2021-06-02 14:46:04,310 [INFO]: #  >>> Run the TestCase: BAIDU_002|搜索：搜狗
+2021-06-02 14:46:04,310 [INFO]: #  --------------------------------------------------
+2021-06-02 14:46:04,310 [INFO]: #  Run the Step: 1|用例片段|EXECUTE|SNIPPET_001
+2021-06-02 14:46:04,310 [INFO]: #  >>> Run the TestCase: SNIPPET_001|搜索：<keywords>
+2021-06-02 14:46:04,310 [INFO]: #  --------------------------------------------------
+2021-06-02 14:46:04,310 [INFO]: #  Run the Step: 1|百度搜索页面|INPUT|百度搜索页面-搜索框
+2021-06-02 14:46:04,971 [INFO]: #  >>>>>>>>>>>>>>>>>>>> success <<<<<<<<<<<<<<<<<<<<
+2021-06-02 14:46:05,172 [INFO]: #  Run the Step: 2|百度搜索页面|CLICK|百度搜索页面-搜索按钮
+2021-06-02 14:46:05,802 [INFO]: #  >>>>>>>>>>>>>>>>>>>> success <<<<<<<<<<<<<<<<<<<<
+2021-06-02 14:46:06,004 [INFO]: #  Run the Step: 3|百度搜索页面|CHECK|通用-页面title
+2021-06-02 14:46:06,010 [INFO]: #  DATA:'搜狗_百度搜索'
+2021-06-02 14:46:06,048 [INFO]: #  REAL:'搜狗_百度搜索'
+2021-06-02 14:46:06,060 [INFO]: #  >>>>>>>>>>>>>>>>>>>> success <<<<<<<<<<<<<<<<<<<<
+2021-06-02 14:46:06,275 [INFO]: #  >>>>>>>>>>>>>>>>>>>> success <<<<<<<<<<<<<<<<<<<<
+2021-06-02 14:46:06,491 [INFO]: #  Run the Step: 2|百度搜索页面|CLICK|百度搜索页面-搜索结果#1
+2021-06-02 14:46:07,215 [INFO]: #  >>>>>>>>>>>>>>>>>>>> success <<<<<<<<<<<<<<<<<<<<
+2021-06-02 14:46:07,422 [INFO]: #  Run the Step: 3|百度搜索页面|CHECK|通用-页面title
+2021-06-02 14:46:07,427 [INFO]: #  DATA:'搜狗搜索引擎 - 上网从搜狗开始'
+2021-06-02 14:46:07,449 [INFO]: #  REAL:'搜狗搜索引擎 - 上网从搜狗开始'
+2021-06-02 14:46:07,460 [INFO]: #  >>>>>>>>>>>>>>>>>>>> success <<<<<<<<<<<<<<<<<<<<
+2021-06-02 14:46:07,669 [INFO]: #  *** SETUP testcase ↓ ***
+2021-06-02 14:46:07,669 [INFO]: #  --------------------------------------------------
+2021-06-02 14:46:07,671 [INFO]: #  >>> Run the TestCase: HOME_001|打开百度
+2021-06-02 14:46:07,671 [INFO]: #  --------------------------------------------------
+2021-06-02 14:46:07,672 [INFO]: #  Run the Step: 1|通用|OPEN|通用-百度搜索链接
+2021-06-02 14:46:08,912 [INFO]: #  >>>>>>>>>>>>>>>>>>>> success <<<<<<<<<<<<<<<<<<<<
+2021-06-02 14:46:09,127 [INFO]: #  Run the Step: 2|百度搜索页面|CHECK|通用-页面title
+2021-06-02 14:46:09,127 [INFO]: #  DATA:'百度一下，你就知道'
+2021-06-02 14:46:09,127 [INFO]: #  REAL:'百度一下，你就知道'
+2021-06-02 14:46:09,142 [INFO]: #  >>>>>>>>>>>>>>>>>>>> success <<<<<<<<<<<<<<<<<<<<
+2021-06-02 14:46:09,431 [INFO]: #  --------------------------------------------------
+2021-06-02 14:46:09,431 [INFO]: #  >>> Run the TestCase: BAIDU_005|搜索：<测试数据>
+2021-06-02 14:46:09,431 [INFO]: #  --------------------------------------------------
+2021-06-02 14:46:09,431 [INFO]: #  Run the Step: 1|用例片段|EXECUTE|SNIPPET_001*2
+2021-06-02 14:46:09,431 [INFO]: #  >>> Run the TestCase: SNIPPET_001|搜索：<keywords>
+2021-06-02 14:46:09,431 [INFO]: #  --------------------------------------------------
+2021-06-02 14:46:09,431 [INFO]: #  Run the Step: 1|百度搜索页面|INPUT|百度搜索页面-搜索框
+2021-06-02 14:46:10,168 [INFO]: #  >>>>>>>>>>>>>>>>>>>> success <<<<<<<<<<<<<<<<<<<<
+2021-06-02 14:46:10,372 [INFO]: #  Run the Step: 2|百度搜索页面|CLICK|百度搜索页面-搜索按钮
+2021-06-02 14:46:10,998 [INFO]: #  >>>>>>>>>>>>>>>>>>>> success <<<<<<<<<<<<<<<<<<<<
+2021-06-02 14:46:11,201 [INFO]: #  Run the Step: 3|百度搜索页面|CHECK|通用-页面title
+2021-06-02 14:46:11,205 [INFO]: #  DATA:'segmentfault_百度搜索'
+2021-06-02 14:46:11,210 [INFO]: #  REAL:'segmentfault_百度搜索'
+2021-06-02 14:46:11,217 [INFO]: #  >>>>>>>>>>>>>>>>>>>> success <<<<<<<<<<<<<<<<<<<<
+2021-06-02 14:46:11,419 [INFO]: #  >>> Run the TestCase: SNIPPET_001|搜索：<keywords>
+2021-06-02 14:46:11,420 [INFO]: #  --------------------------------------------------
+2021-06-02 14:46:11,420 [INFO]: #  Run the Step: 1|百度搜索页面|INPUT|百度搜索页面-搜索框
+2021-06-02 14:46:12,074 [INFO]: #  >>>>>>>>>>>>>>>>>>>> success <<<<<<<<<<<<<<<<<<<<
+2021-06-02 14:46:12,285 [INFO]: #  Run the Step: 2|百度搜索页面|CLICK|百度搜索页面-搜索按钮
+2021-06-02 14:46:12,886 [INFO]: #  >>>>>>>>>>>>>>>>>>>> success <<<<<<<<<<<<<<<<<<<<
+2021-06-02 14:46:13,107 [INFO]: #  Run the Step: 3|百度搜索页面|CHECK|通用-页面title
+2021-06-02 14:46:13,118 [INFO]: #  DATA:'豆瓣_百度搜索'
+2021-06-02 14:46:13,138 [INFO]: #  REAL:'豆瓣_百度搜索'
+2021-06-02 14:46:13,162 [INFO]: #  >>>>>>>>>>>>>>>>>>>> success <<<<<<<<<<<<<<<<<<<<
+2021-06-02 14:46:13,377 [INFO]: #  >>>>>>>>>>>>>>>>>>>> success <<<<<<<<<<<<<<<<<<<<
+2021-06-02 14:46:16,172 [INFO]: #  --- Quit th Driver: Chrome
+2021-06-02 15:06:59,432 [INFO]: #  From Excel import testsuite success
+2021-06-02 15:07:08,629 [ERROR]: #  *** Init global object failure ***
+Traceback (most recent call last):
+  File "D:\Program Files\Python38\lib\site-packages\urllib3\connection.py", line 169, in _new_conn
+    conn = connection.create_connection(
+  File "D:\Program Files\Python38\lib\site-packages\urllib3\util\connection.py", line 96, in create_connection
+    raise err
+  File "D:\Program Files\Python38\lib\site-packages\urllib3\util\connection.py", line 86, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Program Files\Python38\lib\site-packages\urllib3\connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "D:\Program Files\Python38\lib\site-packages\urllib3\connectionpool.py", line 394, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\Program Files\Python38\lib\site-packages\urllib3\connection.py", line 234, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "D:\Program Files\Python38\lib\http\client.py", line 1252, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\Program Files\Python38\lib\http\client.py", line 1298, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\Program Files\Python38\lib\http\client.py", line 1247, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\Program Files\Python38\lib\http\client.py", line 1007, in _send_output
+    self.send(msg)
+  File "D:\Program Files\Python38\lib\http\client.py", line 947, in send
+    self.connect()
+  File "D:\Program Files\Python38\lib\site-packages\urllib3\connection.py", line 200, in connect
+    conn = self._new_conn()
+  File "D:\Program Files\Python38\lib\site-packages\urllib3\connection.py", line 181, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x00000225777BC520>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Program Files\Python38\lib\site-packages\sweetest\autotest.py", line 105, in run
+    g.set_driver()
+  File "D:\Program Files\Python38\lib\site-packages\sweetest\globals.py", line 122, in set_driver
+    self.driver = appdriver.Remote(self.server_url, self.desired_caps)
+  File "D:\Program Files\Python38\lib\site-packages\appium\webdriver\webdriver.py", line 155, in __init__
+    super().__init__(
+  File "D:\Program Files\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "D:\Program Files\Python38\lib\site-packages\appium\webdriver\webdriver.py", line 225, in start_session
+    response = self.execute(RemoteCommand.NEW_SESSION, parameters)
+  File "D:\Program Files\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 319, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "D:\Program Files\Python38\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 374, in execute
+    return self._request(command_info[0], url, body=data)
+  File "D:\Program Files\Python38\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 397, in _request
+    resp = self._conn.request(method, url, body=body, headers=headers)
+  File "D:\Program Files\Python38\lib\site-packages\urllib3\request.py", line 78, in request
+    return self.request_encode_body(
+  File "D:\Program Files\Python38\lib\site-packages\urllib3\request.py", line 170, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "D:\Program Files\Python38\lib\site-packages\urllib3\poolmanager.py", line 375, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "D:\Program Files\Python38\lib\site-packages\urllib3\connectionpool.py", line 783, in urlopen
+    return self.urlopen(
+  File "D:\Program Files\Python38\lib\site-packages\urllib3\connectionpool.py", line 783, in urlopen
+    return self.urlopen(
+  File "D:\Program Files\Python38\lib\site-packages\urllib3\connectionpool.py", line 783, in urlopen
+    return self.urlopen(
+  File "D:\Program Files\Python38\lib\site-packages\urllib3\connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "D:\Program Files\Python38\lib\site-packages\urllib3\util\retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000225777BC520>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2021-06-02 15:07:43,991 [INFO]: #  From Excel import testsuite success
+2021-06-02 15:07:43,992 [INFO]: #  ...No SETUP testcase need to run...
+2021-06-02 15:07:43,993 [INFO]: #  --------------------------------------------------
+2021-06-02 15:07:43,993 [INFO]: #  >>> Run the TestCase: echo_001|Echo get
+2021-06-02 15:07:43,994 [INFO]: #  --------------------------------------------------
+2021-06-02 15:07:43,994 [INFO]: #  Run the Step: 1|Echo|GET|Echo-get请求
+2021-06-02 15:07:43,995 [INFO]: #  URL: https://postman-echo.com/get
+2021-06-02 15:07:45,389 [INFO]: #  PARAMS: {'foo1': 'bar1', 'foo2': 'bar2'}
+2021-06-02 15:07:45,390 [INFO]: #  status_code: 200
+2021-06-02 15:07:45,390 [INFO]: #  response json: {'args': {'foo1': 'bar1', 'foo2': 'bar2'}, 'headers': {'x-forwarded-proto': 'https', 'x-forwarded-port': '443', 'host': 'postman-echo.com', 'x-amzn-trace-id': 'Root=1-60b72e41-390c08007f600cfa70afd8a0', 'user-agent': 'python-requests/2.25.1', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'content-type': 'application/x-www-form-urlencoded', 'cookie': 'user=test'}, 'url': 'https://postman-echo.com/get?foo1=bar1&foo2=bar2'}
+2021-06-02 15:07:45,392 [INFO]: #  json check result: {'code': 0, 'result': {}, 'var': {}, 'none': []}
+2021-06-02 15:07:45,392 [INFO]: #  cookies var: {'sails': None}
+2021-06-02 15:07:45,393 [INFO]: #  json var: {'foo1': 'bar1'}
+2021-06-02 15:07:45,393 [INFO]: #  >>>>>>>>>>>>>>>>>>>> success <<<<<<<<<<<<<<<<<<<<
+2021-06-02 15:07:45,602 [INFO]: #  Run the Step: 2|Echo|GET|Echo-get请求#bar1#bar2
+2021-06-02 15:07:45,603 [INFO]: #  URL: https://postman-echo.com/get?foo1=bar1&foo2=bar2
+2021-06-02 15:07:45,840 [INFO]: #  status_code: 200
+2021-06-02 15:07:45,841 [INFO]: #  response json: {'args': {'foo1': 'bar1', 'foo2': 'bar2'}, 'headers': {'x-forwarded-proto': 'https', 'x-forwarded-port': '443', 'host': 'postman-echo.com', 'x-amzn-trace-id': 'Root=1-60b72e41-60c3673c06d28e9d6ad9f85f', 'user-agent': 'python-requests/2.25.1', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'content-type': 'application/x-www-form-urlencoded', 'cookie': 'sails.sid=s%3Ar4_Stw-ia0RaaOHFYlpbENiTSgMVbNxT.gO%2FaT5dYwu7%2FIDGNz8usskLFH%2F44NbceDQdrK6Z6rsw'}, 'url': 'https://postman-echo.com/get?foo1=bar1&foo2=bar2'}
+2021-06-02 15:07:45,842 [INFO]: #  json check result: {'code': 0, 'result': {}, 'var': {}, 'none': []}
+2021-06-02 15:07:45,842 [INFO]: #  >>>>>>>>>>>>>>>>>>>> success <<<<<<<<<<<<<<<<<<<<
+2021-06-02 15:07:46,052 [INFO]: #  ...No SETUP testcase need to run...
+2021-06-02 15:07:46,053 [INFO]: #  --------------------------------------------------
+2021-06-02 15:07:46,053 [INFO]: #  >>> Run the TestCase: echo_002|Echo post
+2021-06-02 15:07:46,053 [INFO]: #  --------------------------------------------------
+2021-06-02 15:07:46,054 [INFO]: #  Run the Step: 1|Echo|POST|Echo-post请求
+2021-06-02 15:07:46,055 [INFO]: #  URL: https://postman-echo.com/post
+2021-06-02 15:07:46,296 [INFO]: #  BODY: b'{"foo1": "bar1", "foo2": "bar2"}'
+2021-06-02 15:07:46,297 [INFO]: #  status_code: 200
+2021-06-02 15:07:46,297 [INFO]: #  response json: {'args': {}, 'data': {'foo1': 'bar1', 'foo2': 'bar2'}, 'files': {}, 'form': {}, 'headers': {'x-forwarded-proto': 'https', 'x-forwarded-port': '443', 'host': 'postman-echo.com', 'x-amzn-trace-id': 'Root=1-60b72e41-6f5dac5b7cac8b9d014217df', 'content-length': '32', 'user-agent': 'python-requests/2.25.1', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'content-type': 'application/json', 'cookie': 'sails.sid=s%3A891EaM6rYq-sozneNwCdXB9xCiPWHvJP.33WrsyQmG3TrkEivnfppbpkMCbe9QsN%2BcGDGYPSiqbQ; user=xiaoming'}, 'json': {'foo1': 'bar1', 'foo2': 'bar2'}, 'url': 'https://postman-echo.com/post'}
+2021-06-02 15:07:46,298 [INFO]: #  json check result: {'code': 0, 'result': {}, 'var': {}, 'none': []}
+2021-06-02 15:07:46,298 [INFO]: #  json var: {'foo2': 'bar2'}
+2021-06-02 15:07:46,298 [INFO]: #  >>>>>>>>>>>>>>>>>>>> success <<<<<<<<<<<<<<<<<<<<
+2021-06-02 15:07:46,503 [INFO]: #  Run the Step: 2|Echo|POST|Echo-post请求
+2021-06-02 15:07:46,504 [INFO]: #  URL: https://postman-echo.com/post
+2021-06-02 15:07:46,741 [INFO]: #  BODY: b'{"foo1": "bar1", "foo2": "bar2"}'
+2021-06-02 15:07:46,742 [INFO]: #  status_code: 200
+2021-06-02 15:07:46,743 [INFO]: #  response json: {'args': {}, 'data': {'foo1': 'bar1', 'foo2': 'bar2'}, 'files': {}, 'form': {}, 'headers': {'x-forwarded-proto': 'https', 'x-forwarded-port': '443', 'host': 'postman-echo.com', 'x-amzn-trace-id': 'Root=1-60b72e42-6a73bf4a5e05780704ee2cca', 'content-length': '32', 'user-agent': 'python-requests/2.25.1', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'content-type': 'application/json', 'cookie': 'sails.sid=s%3AwL12M-TTUAM9-rwZj218qseeZjfkYZ6v.sZ6AGjNnTp4aFH0wlIcCvVuIMy%2FTwKBve6qbGQ6S4MI'}, 'json': {'foo1': 'bar1', 'foo2': 'bar2'}, 'url': 'https://postman-echo.com/post'}
+2021-06-02 15:07:46,743 [INFO]: #  json check result: {'code': 0, 'result': {}, 'var': {}, 'none': []}
+2021-06-02 15:07:46,743 [INFO]: #  >>>>>>>>>>>>>>>>>>>> success <<<<<<<<<<<<<<<<<<<<
+2021-06-02 17:56:48,004 [INFO]: #  From Excel import testsuite success
+2021-06-02 17:56:49,362 [INFO]: #  *** SETUP testcase ↓ ***
+2021-06-02 17:56:49,362 [INFO]: #  --------------------------------------------------
+2021-06-02 17:56:49,363 [INFO]: #  >>> Run the TestCase: HOME_001|打开百度
+2021-06-02 17:56:49,363 [INFO]: #  --------------------------------------------------
+2021-06-02 17:56:49,364 [INFO]: #  Run the Step: 1|通用|OPEN|通用-百度搜索链接
+2021-06-02 17:56:51,109 [INFO]: #  >>>>>>>>>>>>>>>>>>>> success <<<<<<<<<<<<<<<<<<<<
+2021-06-02 17:56:51,318 [INFO]: #  Run the Step: 2|百度搜索页面|CHECK|通用-页面title
+2021-06-02 17:56:51,318 [INFO]: #  DATA:'百度一下，你就知道'
+2021-06-02 17:56:51,318 [INFO]: #  REAL:'百度一下，你就知道'
+2021-06-02 17:56:51,333 [INFO]: #  >>>>>>>>>>>>>>>>>>>> success <<<<<<<<<<<<<<<<<<<<
+2021-06-02 17:56:51,533 [INFO]: #  --------------------------------------------------
+2021-06-02 17:56:51,533 [INFO]: #  >>> Run the TestCase: BAIDU_001|搜索：自动化测试
+2021-06-02 17:56:51,534 [INFO]: #  --------------------------------------------------
+2021-06-02 17:56:51,535 [INFO]: #  Run the Step: 1|百度搜索页面|INPUT|百度搜索页面-搜索框
+2021-06-02 17:56:52,224 [INFO]: #  >>>>>>>>>>>>>>>>>>>> success <<<<<<<<<<<<<<<<<<<<
+2021-06-02 17:56:52,439 [INFO]: #  Run the Step: 2|百度搜索页面|CLICK|百度搜索页面-搜索按钮
+2021-06-02 17:56:53,054 [INFO]: #  >>>>>>>>>>>>>>>>>>>> success <<<<<<<<<<<<<<<<<<<<
+2021-06-02 17:56:53,262 [INFO]: #  Run the Step: 3|百度搜索页面|CHECK|通用-页面title
+2021-06-02 17:56:53,262 [INFO]: #  DATA:'自动化测试_百度搜索'
+2021-06-02 17:56:53,262 [INFO]: #  REAL:'百度一下，你就知道'
+2021-06-02 17:56:53,449 [ERROR]: #  Exception:
+Traceback (most recent call last):
+  File "D:\Program Files\Python38\lib\site-packages\sweetest\keywords\web.py", line 24, in title
+    assert data['text'] == g.driver.title
+AssertionError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Program Files\Python38\lib\site-packages\sweetest\testcase.py", line 152, in run
+    element = getattr(web, step['keyword'].lower())(step)
+  File "D:\Program Files\Python38\lib\site-packages\sweetest\keywords\web.py", line 94, in check
+    var[by] = getattr(Common, by)(data, output)
+  File "D:\Program Files\Python38\lib\site-packages\sweetest\keywords\web.py", line 26, in title
+    raise Exception(f'Check Failure, DATA:{data["text"]}, REAL:{g.driver.title}')
+Exception: Check Failure, DATA:自动化测试_百度搜索, REAL:百度一下，你就知道
+2021-06-02 17:56:53,518 [ERROR]: #  >>>>>>>>>>>>>>>>>>>> failure <<<<<<<<<<<<<<<<<<<<
+2021-06-02 17:56:53,519 [INFO]: #  *** SETUP testcase ↓ ***
+2021-06-02 17:56:53,519 [INFO]: #  --------------------------------------------------
+2021-06-02 17:56:53,520 [INFO]: #  >>> Run the TestCase: HOME_001|打开百度
+2021-06-02 17:56:53,520 [INFO]: #  --------------------------------------------------
+2021-06-02 17:56:53,520 [INFO]: #  Run the Step: 1|百度搜索页面|OPEN|通用-百度搜索链接
+2021-06-02 17:56:54,253 [INFO]: #  >>>>>>>>>>>>>>>>>>>> success <<<<<<<<<<<<<<<<<<<<
+2021-06-02 17:56:54,463 [INFO]: #  Run the Step: 2|百度搜索页面|CHECK|通用-页面title
+2021-06-02 17:56:54,464 [INFO]: #  DATA:'百度一下，你就知道'
+2021-06-02 17:56:54,464 [INFO]: #  REAL:'百度一下，你就知道'
+2021-06-02 17:56:54,464 [INFO]: #  >>>>>>>>>>>>>>>>>>>> success <<<<<<<<<<<<<<<<<<<<
+2021-06-02 17:56:54,675 [INFO]: #  --------------------------------------------------
+2021-06-02 17:56:54,675 [INFO]: #  >>> Run the TestCase: BAIDU_002|搜索：搜狗
+2021-06-02 17:56:54,675 [INFO]: #  --------------------------------------------------
+2021-06-02 17:56:54,675 [INFO]: #  Run the Step: 1|用例片段|EXECUTE|SNIPPET_001
+2021-06-02 17:56:54,675 [INFO]: #  >>> Run the TestCase: SNIPPET_001|搜索：<keywords>
+2021-06-02 17:56:54,675 [INFO]: #  --------------------------------------------------
+2021-06-02 17:56:54,675 [INFO]: #  Run the Step: 1|百度搜索页面|INPUT|百度搜索页面-搜索框
+2021-06-02 17:56:55,321 [INFO]: #  >>>>>>>>>>>>>>>>>>>> success <<<<<<<<<<<<<<<<<<<<
+2021-06-02 17:56:55,534 [INFO]: #  Run the Step: 2|百度搜索页面|CLICK|百度搜索页面-搜索按钮
+2021-06-02 17:56:56,127 [INFO]: #  >>>>>>>>>>>>>>>>>>>> success <<<<<<<<<<<<<<<<<<<<
+2021-06-02 17:56:56,329 [INFO]: #  Run the Step: 3|百度搜索页面|CHECK|通用-页面title
+2021-06-02 17:56:56,336 [INFO]: #  DATA:'搜狗_百度搜索'
+2021-06-02 17:56:56,389 [INFO]: #  REAL:'搜狗_百度搜索'
+2021-06-02 17:56:56,520 [INFO]: #  >>>>>>>>>>>>>>>>>>>> success <<<<<<<<<<<<<<<<<<<<
+2021-06-02 17:56:56,735 [INFO]: #  >>>>>>>>>>>>>>>>>>>> success <<<<<<<<<<<<<<<<<<<<
+2021-06-02 17:56:56,945 [INFO]: #  Run the Step: 2|百度搜索页面|CLICK|百度搜索页面-搜索结果#1
+2021-06-02 17:56:57,604 [INFO]: #  >>>>>>>>>>>>>>>>>>>> success <<<<<<<<<<<<<<<<<<<<
+2021-06-02 17:56:57,810 [INFO]: #  Run the Step: 3|百度搜索页面|CHECK|通用-页面title
+2021-06-02 17:56:57,814 [INFO]: #  DATA:'搜狗搜索引擎 - 上网从搜狗开始'
+2021-06-02 17:56:57,820 [INFO]: #  REAL:'搜狗搜索引擎 - 上网从搜狗开始'
+2021-06-02 17:56:57,827 [INFO]: #  >>>>>>>>>>>>>>>>>>>> success <<<<<<<<<<<<<<<<<<<<
+2021-06-02 17:56:58,041 [INFO]: #  *** SETUP testcase ↓ ***
+2021-06-02 17:56:58,041 [INFO]: #  --------------------------------------------------
+2021-06-02 17:56:58,042 [INFO]: #  >>> Run the TestCase: HOME_001|打开百度
+2021-06-02 17:56:58,042 [INFO]: #  --------------------------------------------------
+2021-06-02 17:56:58,043 [INFO]: #  Run the Step: 1|通用|OPEN|通用-百度搜索链接
+2021-06-02 17:56:59,008 [INFO]: #  >>>>>>>>>>>>>>>>>>>> success <<<<<<<<<<<<<<<<<<<<
+2021-06-02 17:56:59,217 [INFO]: #  Run the Step: 2|百度搜索页面|CHECK|通用-页面title
+2021-06-02 17:56:59,217 [INFO]: #  DATA:'百度一下，你就知道'
+2021-06-02 17:56:59,217 [INFO]: #  REAL:'百度一下，你就知道'
+2021-06-02 17:56:59,233 [INFO]: #  >>>>>>>>>>>>>>>>>>>> success <<<<<<<<<<<<<<<<<<<<
+2021-06-02 17:56:59,445 [INFO]: #  --------------------------------------------------
+2021-06-02 17:56:59,445 [INFO]: #  >>> Run the TestCase: BAIDU_005|搜索：<测试数据>
+2021-06-02 17:56:59,446 [INFO]: #  --------------------------------------------------
+2021-06-02 17:56:59,447 [INFO]: #  Run the Step: 1|用例片段|EXECUTE|SNIPPET_001*2
+2021-06-02 17:56:59,447 [INFO]: #  >>> Run the TestCase: SNIPPET_001|搜索：<keywords>
+2021-06-02 17:56:59,448 [INFO]: #  --------------------------------------------------
+2021-06-02 17:56:59,448 [INFO]: #  Run the Step: 1|百度搜索页面|INPUT|百度搜索页面-搜索框
+2021-06-02 17:57:00,157 [INFO]: #  >>>>>>>>>>>>>>>>>>>> success <<<<<<<<<<<<<<<<<<<<
+2021-06-02 17:57:00,366 [INFO]: #  Run the Step: 2|百度搜索页面|CLICK|百度搜索页面-搜索按钮
+2021-06-02 17:57:00,982 [INFO]: #  >>>>>>>>>>>>>>>>>>>> success <<<<<<<<<<<<<<<<<<<<
+2021-06-02 17:57:01,191 [INFO]: #  Run the Step: 3|百度搜索页面|CHECK|通用-页面title
+2021-06-02 17:57:01,191 [INFO]: #  DATA:'segmentfault_百度搜索'
+2021-06-02 17:57:01,191 [INFO]: #  REAL:'segmentfault_百度搜索'
+2021-06-02 17:57:01,191 [INFO]: #  >>>>>>>>>>>>>>>>>>>> success <<<<<<<<<<<<<<<<<<<<
+2021-06-02 17:57:01,400 [INFO]: #  >>> Run the TestCase: SNIPPET_001|搜索：<keywords>
+2021-06-02 17:57:01,400 [INFO]: #  --------------------------------------------------
+2021-06-02 17:57:01,400 [INFO]: #  Run the Step: 1|百度搜索页面|INPUT|百度搜索页面-搜索框
+2021-06-02 17:57:02,004 [INFO]: #  >>>>>>>>>>>>>>>>>>>> success <<<<<<<<<<<<<<<<<<<<
+2021-06-02 17:57:02,207 [INFO]: #  Run the Step: 2|百度搜索页面|CLICK|百度搜索页面-搜索按钮
+2021-06-02 17:57:02,784 [INFO]: #  >>>>>>>>>>>>>>>>>>>> success <<<<<<<<<<<<<<<<<<<<
+2021-06-02 17:57:02,991 [INFO]: #  Run the Step: 3|百度搜索页面|CHECK|通用-页面title
+2021-06-02 17:57:02,991 [INFO]: #  DATA:'豆瓣_百度搜索'
+2021-06-02 17:57:02,991 [INFO]: #  REAL:'豆瓣_百度搜索'
+2021-06-02 17:57:02,991 [INFO]: #  >>>>>>>>>>>>>>>>>>>> success <<<<<<<<<<<<<<<<<<<<
+2021-06-02 17:57:03,221 [INFO]: #  >>>>>>>>>>>>>>>>>>>> success <<<<<<<<<<<<<<<<<<<<
+2021-06-02 17:57:05,532 [INFO]: #  --- Quit th Driver: Chrome

@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<testsuites>
+	<testsuite name="Suda_Mall" hostname="comb" timestamp="2021-06-18T12:02:01.894361" tests="5" failures="0" failures_detail="H:0 M:0 L:0" errors="0" errors_detail="H:0 M:0 L:0" time="43.223704" skipped="0" disabled="0">
+		<testcase name="管理收货地址" classname="ADDR_001" priority="H" time="38.027616"/>
+		<testcase name="地址管理" classname="addr#base" priority="H" time="6.204809"/>
+		<testcase name="添加收货地址" classname="addr#add" priority="H" time="16.443024"/>
+		<testcase name="编辑收货地址" classname="addr#edit" priority="H" time="6.143701"/>
+		<testcase name="删除收货地址" classname="addr#edit" priority="H" time="2.093032"/>
+	</testsuite>
+</testsuites>

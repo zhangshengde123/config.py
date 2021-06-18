@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<testsuites>
+	<testsuite name="Kaop" hostname="platform" timestamp="2021-06-18T16:09:02.982650" tests="3" failures="1" failures_detail="H:0 M:1 L:0" errors="0" errors_detail="H:0 M:0 L:0" time="28.262787" skipped="0" disabled="0">
+		<testcase name="登录锦福利后台" classname="LOG_IN" priority="H" time="6.905392"/>
+		<testcase name="使用工号搜索员工信息" classname="FIL_001" priority="H" time="9.079232"/>
+		<testcase name="筛选普通员工" classname="FIL_002" priority="M" time="10.443245">
+			<failure type="Failure" message="step-1|SELECT|员工福利-员工身份: Message: Select only works on &lt;select&gt; elements, not on &lt;input&gt;
+"/>
+		</testcase>
+	</testsuite>
+</testsuites>

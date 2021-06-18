@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<testsuites>
+	<testsuite name="Kaop" hostname="platform" timestamp="2021-06-18T16:08:14.651643" tests="3" failures="2" failures_detail="H:1 M:1 L:0" errors="0" errors_detail="H:0 M:0 L:0" time="22.822699" skipped="0" disabled="0">
+		<testcase name="登录锦福利后台" classname="LOG_IN" priority="H" time="6.721054"/>
+		<testcase name="使用工号搜索员工信息" classname="FIL_001" priority="H" time="3.621702">
+			<failure type="Failure" message="step-1|INPUT|员工福利-员工ID: Message: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=91.0.4472.106)
+"/>
+		</testcase>
+		<testcase name="筛选普通员工" classname="FIL_002" priority="M" time="10.441064">
+			<failure type="Failure" message="step-1|SELECT|员工福利-员工身份: Message: Select only works on &lt;select&gt; elements, not on &lt;input&gt;
+"/>
+		</testcase>
+	</testsuite>
+</testsuites>

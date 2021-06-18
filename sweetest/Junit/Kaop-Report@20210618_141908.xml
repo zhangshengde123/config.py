@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<testsuites>
+	<testsuite name="Kaop" hostname="platform" timestamp="2021-06-18T14:19:08.856917" tests="2" failures="1" failures_detail="H:1 M:0 L:0" errors="1" errors_detail="H:0 M:0 L:0" time="43.020982" skipped="1" disabled="0">
+		<testcase name="检查登录用户信息" classname="CHECK_001" priority="H" time="23.869258">
+			<failure type="Failure" message="step-2|CHECK|福利管理平台-用户名: Locating the element:福利管理平台-用户名 is Failure: Timeout"/>
+		</testcase>
+		<testcase name="搜索员工信息" classname="SEARCH_001" priority="H" time="17.531787">
+			<skipped type="Blocked" message="SETUP is not success"/>
+		</testcase>
+	</testsuite>
+</testsuites>
