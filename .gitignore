@@ -1,1 +1,7 @@
 .idea
+/snapshot/
+/log/
+/sweetest/Junit/*
+/sweetest/log/
+/sweetest/report/
+/sweetest/snapshot/
