@@ -4,8 +4,10 @@ test.py
 ..\snapshot
 ..\example
 ..\JUnit
-\report
-\snapshot
-\log
+\report\**\*
+\report\*
+\snapshot\**\*
+\snapshot\*
+\log\*
 
 
