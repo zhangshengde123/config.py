@@ -1,4 +1,4 @@
-![sweetest](https://sweeter.io/docs/_media/sweeter.png)
+
 
 # sweetest
 
@@ -61,13 +61,12 @@ testcase\	测试用例目录
 Baidu-TestCase.xlsx	测试用例，名称格式：project_name + "-TestCase.xlsx"
 start.py	启动脚本，test = Autotest(project_name, sheet_name)
 > 详细文档：https://sweeter.io/#/sweetest/
+> github：https://github.com/tonglei100/sweetest
 
-## 加入我们
 
-QQ 交流群：**941761748**
-> (验证码：python) <small>注意首字母小写</small>
 
-微信公众号：**喜文测试**
 
-![QQ2](https://sweeter.io/docs/_media/QQ.png)![WeChat](https://sweeter.io/docs/_media/WeChat.png)
-# sweetest-extend
+
+
+
+
