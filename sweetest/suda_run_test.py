@@ -32,7 +32,7 @@ server_url = ''
 sweet = Autotest(plan_name, sheet_name, desired_caps, server_url)
 
 # 按条件执行,支持筛选的属性有：'id', 'title', 'designer', 'priority'
-sweet.fliter(priority='H')
+#sweet.fliter(priority='H')
 #sweet.fliter(id='ADDR_001')
 
 # 执行自动化测试
