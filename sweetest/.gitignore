@@ -8,3 +8,4 @@ test.py
 \snapshot\*
 \log\*
 /log/*
+/Junit/*
